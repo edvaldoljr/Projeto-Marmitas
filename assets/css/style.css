@@ -64,7 +64,7 @@ body {
     line-height: 1.6;
 }
 
-ul {
+.header ul {
     list-style: none;
 }
 
@@ -87,7 +87,7 @@ img {
     padding: 0.5rem 1.5rem;
     font-size: var(--normal-font-size);
     font-weight: var(--font-bold);
-    letter-spacing: 4px;
+    letter-spacing: 15px;
     text-align: center;
     outline: none;
     color: var(--light-color);
@@ -196,9 +196,48 @@ img {
     padding: 3rem 0;
 }
 
-.chefs img {
-    border-radius: 50%;
+/* Desenvolvimento */
+
+
+
+.home {
+    display: flex;
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(0, 0, 0, 0.7)),
+        to(rgba(0, 0, 0, 0.7))
+      ),
+      url(../img/fundoChef.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../img/fundoChef.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+.home .home__title {
+    color: #ffffff;
 }
+
+.home .home__subtitle {
+    color: #ffffff;
+}
+
+
+.chefs img {
+    border-radius: 10%;
+}
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 960px){
     .nav__menu {
