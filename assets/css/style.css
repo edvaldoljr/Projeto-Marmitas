@@ -87,7 +87,7 @@ img {
     padding: 0.5rem 1.5rem;
     font-size: var(--normal-font-size);
     font-weight: var(--font-bold);
-    letter-spacing: 15px;
+    letter-spacing: 5px;
     text-align: center;
     outline: none;
     color: var(--light-color);
