@@ -266,6 +266,7 @@ img {
 
 
 
+
 @media (max-width: 960px){
     .nav__menu {
         position: absolute;
@@ -394,8 +395,8 @@ img {
 
 .home__title span {
     font-family: var(--font-logo);
-    font-size: var(--big-font-size);
-    letter-spacing: 4px;
+    font-size: 48px;
+    letter-spacing: 2px;
     color: var(--first-color);
 }
 
