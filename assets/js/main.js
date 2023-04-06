@@ -35,19 +35,19 @@ function colorLink(){
 linkColor.forEach(L=> L.addEventListener('click', colorLink))
 
 /*------------BOX SHADOW NO HEADER-------------*/
-function scrollHeader(){
-    const scrollHeader = document.getElementById('header');
-    // Quando o scroll tiver um altura maior que 200 será adiconado a class scroll-header na tag Header
-    if(this.scrollY >= 200) scrollHeader.classList.add('scroll-header'); else scrollHeader.classList.remove('scroll-header')
-}
-window.addEventListener('scroll', scrollHeader)
+// function scrollHeader(){
+//     const scrollHeader = document.getElementById('header');
+//     // Quando o scroll tiver um altura maior que 200 será adiconado a class scroll-header na tag Header
+//     if(this.scrollY >= 200) scrollHeader.classList.add('scroll-header'); else scrollHeader.classList.remove('scroll-header')
+// }
+// window.addEventListener('scroll', scrollHeader)
 
 /*------------SHOW SCROLL TOP------------- */
-function scrollTop(){
-    const scrollTop = document.getElementById('scroll-top');
-    // Quando o scroll tiver um altura maior que 560 será adiconado a class scroll-top
-    if(this.scrollY >= 560) scrollTop.classList.add('scroll-top'); else scrollTop.classList.remove('scroll-top')
-}
-window.addEventListener('scroll', scrollTop)
+// function scrollTop(){
+//     const scrollTop = document.getElementById('scroll-top');
+//     // Quando o scroll tiver um altura maior que 560 será adiconado a class scroll-top
+//     if(this.scrollY >= 560) scrollTop.classList.add('scroll-top'); else scrollTop.classList.remove('scroll-top')
+// }
+// window.addEventListener('scroll', scrollTop)
 
 
