@@ -257,6 +257,9 @@ img {
     border-radius: 10%;
 }
 
+.card__descripition ul {
+    padding-left: 20px;
+}
 
 
 
