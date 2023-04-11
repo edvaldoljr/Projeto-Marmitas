@@ -654,9 +654,15 @@ textarea {
     background-size: cover;
 }
 
+.compartilhar__container .section-title1 {
+    margin-top: var(--mb-3);
+    color: black;
+}
+
 .compartilhar__container .section-title {
     margin-top: var(--mb-3);
 }
+
 
 .compartilhar__container p {
     font-weight: var(--font-bold);
