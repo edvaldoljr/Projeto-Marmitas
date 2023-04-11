@@ -236,9 +236,9 @@ img {
         from(rgba(0, 0, 0, 0.7)),
         to(rgba(0, 0, 0, 0.7))
       ),
-      url(../img/gifsGastronomia.gif) no-repeat;
+      url(/gifsGastronomia.gif) no-repeat;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url(../img/gifsGastronomia.gif) no-repeat;
+      url(gifsGastronomia.gif) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -550,7 +550,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../img/bg-delivery.jpg);
+    background-image: url(bg-delivery.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -648,7 +648,7 @@ textarea {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url(../img/bg-compartilar.jpg);
+    background-image: url(bg-compartilar.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
