@@ -477,7 +477,7 @@ img {
     border-radius: 8px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
     margin-top: var(--mb-4);
-    margin-bottom: var(--mb-4);
+    margin-bottom: 4rem;
     transition: 0.4s;
 }
 
